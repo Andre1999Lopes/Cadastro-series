@@ -27,7 +27,7 @@ namespace cadastro_series
 			retorno += $"Título: {title}{Environment.NewLine}";
 			retorno += $"Descrição: {description}{Environment.NewLine}";
 			retorno += $"Ano de lançamento: {year}{Environment.NewLine}";
-			retorno =+ $"Excluída: {(isDeleted ? "Sim" : "Não")}";
+			retorno += $"Excluída: {(isDeleted ? "Sim" : "Não")}";
 			return retorno;
 		}
 
